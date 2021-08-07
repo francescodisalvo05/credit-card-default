@@ -1,0 +1,413 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2171" height="1550.17" viewBox="0 0 2171 1550.17">
+  <defs>
+    <style>
+      .a {
+        fill: #8cc63f;
+      }
+
+      .a, .c, .d, .j, .k, .l, .m, .n {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .b {
+        font-size: 24px;
+      }
+
+      .b, .e {
+        font-family: TrebuchetMS-Bold, Trebuchet MS;
+        font-weight: 700;
+      }
+
+      .c {
+        fill: none;
+      }
+
+      .d {
+        fill: #f7931e;
+      }
+
+      .e {
+        font-size: 60px;
+      }
+
+      .f {
+        letter-spacing: -0.09em;
+      }
+
+      .g {
+        letter-spacing: -0.02em;
+      }
+
+      .h {
+        font-size: 101px;
+        font-family: TrebuchetMS, Trebuchet MS;
+      }
+
+      .i {
+        letter-spacing: -0.03em;
+      }
+
+      .j {
+        fill: #29abe2;
+      }
+
+      .k {
+        fill: #39b54a;
+      }
+
+      .l {
+        fill: #662d91;
+      }
+
+      .m {
+        fill: red;
+      }
+
+      .n {
+        fill: #f0f;
+      }
+    </style>
+  </defs>
+  <title>decision tree</title>
+  <g>
+    <g>
+      <g>
+        <circle class="a" cx="291.5" cy="522.5" r="30.5"/>
+        <text class="b" transform="translate(277.26 529.58)">X9</text>
+      </g>
+      <g>
+        <circle class="c" cx="193.5" cy="492.5" r="190.5"/>
+        <g>
+          <circle class="d" cx="280.5" cy="483.5" r="30.5"/>
+          <text class="b" transform="translate(266.26 490.58)">X1</text>
+        </g>
+        <g>
+          <circle class="a" cx="72.5" cy="469.5" r="30.5"/>
+          <text class="b" transform="translate(58.26 476.58)">X2</text>
+        </g>
+        <g>
+          <circle class="d" cx="273.5" cy="595.5" r="30.5"/>
+          <text class="b" transform="translate(259.26 602.58)">X5</text>
+        </g>
+        <g>
+          <circle class="a" cx="114.5" cy="394.5" r="30.5"/>
+          <text class="b" transform="translate(100.26 401.58)">X4</text>
+        </g>
+        <g>
+          <circle class="d" cx="175.5" cy="439.5" r="30.5"/>
+          <text class="b" transform="translate(161.26 446.58)">X3</text>
+        </g>
+        <g>
+          <circle class="a" cx="267.5" cy="425.5" r="30.5"/>
+          <text class="b" transform="translate(253.26 432.58)">X6</text>
+        </g>
+        <g>
+          <circle class="a" cx="190.5" cy="492.5" r="30.5"/>
+          <text class="b" transform="translate(176.26 499.58)">X7</text>
+        </g>
+        <g>
+          <circle class="d" cx="183.5" cy="588.5" r="30.5"/>
+          <text class="b" transform="translate(169.26 595.58)">X8</text>
+        </g>
+        <g>
+          <circle class="d" cx="231.5" cy="536.5" r="30.5"/>
+          <text class="b" transform="translate(210.23 543.58)">X10</text>
+        </g>
+        <g>
+          <circle class="d" cx="114.5" cy="540.5" r="30.5"/>
+          <text class="b" transform="translate(93.23 547.58)">X11</text>
+        </g>
+        <text class="e" transform="translate(73.84 757)">D<tspan class="f" x="38.55" y="0">AT</tspan><tspan x="101.89" y="0">ASE</tspan><tspan class="g" x="204.7" y="0">T</tspan></text>
+      </g>
+    </g>
+    <g>
+      <line class="c" x1="409" y1="361" x2="503.82" y2="316.98"/>
+      <polygon points="505.87 330.54 521 309 494.78 306.66 505.87 330.54"/>
+    </g>
+    <g>
+      <line class="c" x1="419" y1="575" x2="497.81" y2="592.12"/>
+      <polygon points="491.25 604.17 516.33 596.15 496.84 578.44 491.25 604.17"/>
+    </g>
+    <g>
+      <circle class="c" cx="731.5" cy="193.5" r="190.5"/>
+      <g>
+        <circle class="a" cx="672.5" cy="166.5" r="30.5"/>
+        <text class="b" transform="translate(658.26 173.58)">X6</text>
+      </g>
+      <g>
+        <circle class="a" cx="728.5" cy="135.5" r="30.5"/>
+        <text class="b" transform="translate(714.26 142.58)">X6</text>
+      </g>
+      <g>
+        <circle class="a" cx="855.5" cy="197.5" r="30.5"/>
+        <text class="b" transform="translate(841.26 204.58)">X7</text>
+      </g>
+      <g>
+        <circle class="d" cx="690.5" cy="256.5" r="30.5"/>
+        <text class="b" transform="translate(676.26 263.58)">X3</text>
+      </g>
+      <g>
+        <circle class="d" cx="598.5" cy="179.5" r="30.5"/>
+        <text class="b" transform="translate(584.26 186.58)">X3</text>
+      </g>
+      <g>
+        <circle class="d" cx="799.5" cy="148.5" r="30.5"/>
+        <text class="b" transform="translate(778.23 155.58)">X11</text>
+      </g>
+      <g>
+        <circle class="d" cx="813.5" cy="223.5" r="30.5"/>
+        <text class="b" transform="translate(799.26 230.58)">X5</text>
+      </g>
+      <g>
+        <circle class="d" cx="766.5" cy="61.5" r="30.5"/>
+        <text class="b" transform="translate(752.26 68.58)">X5</text>
+      </g>
+      <g>
+        <circle class="d" cx="766.5" cy="304.5" r="30.5"/>
+        <text class="b" transform="translate(752.26 311.58)">X5</text>
+      </g>
+      <g>
+        <circle class="d" cx="727.5" cy="209.5" r="30.5"/>
+        <text class="b" transform="translate(713.26 216.58)">X3</text>
+      </g>
+      <g>
+        <circle class="a" cx="654.5" cy="91.5" r="30.5"/>
+        <text class="b" transform="translate(640.26 98.58)">X4</text>
+      </g>
+    </g>
+    <g>
+      <circle class="c" cx="731.5" cy="596.5" r="190.5"/>
+      <g>
+        <circle class="d" cx="685.5" cy="570.5" r="30.5"/>
+        <text class="b" transform="translate(671.26 577.58)">X5</text>
+      </g>
+      <g>
+        <circle class="d" cx="825.5" cy="553.5" r="30.5"/>
+        <text class="b" transform="translate(804.23 560.58)">X10</text>
+      </g>
+      <g>
+        <circle class="d" cx="703.5" cy="500.5" r="30.5"/>
+        <text class="b" transform="translate(689.26 507.58)">X1</text>
+      </g>
+      <g>
+        <circle class="a" cx="736.5" cy="685.5" r="30.5"/>
+        <text class="b" transform="translate(722.26 692.58)">X9</text>
+      </g>
+      <g>
+        <circle class="a" cx="772.5" cy="619.5" r="30.5"/>
+        <text class="b" transform="translate(758.26 626.58)">X9</text>
+      </g>
+      <g>
+        <circle class="a" cx="754.5" cy="540.5" r="30.5"/>
+        <text class="b" transform="translate(740.26 547.58)">X2</text>
+      </g>
+      <g>
+        <circle class="a" cx="614.5" cy="570.5" r="30.5"/>
+        <text class="b" transform="translate(600.26 577.58)">X7</text>
+      </g>
+      <g>
+        <circle class="a" cx="617.5" cy="527.5" r="30.5"/>
+        <text class="b" transform="translate(603.26 534.58)">X9</text>
+      </g>
+      <g>
+        <circle class="d" cx="772.5" cy="496.5" r="30.5"/>
+        <text class="b" transform="translate(758.26 503.58)">X1</text>
+      </g>
+      <g>
+        <circle class="a" cx="642.5" cy="650.5" r="30.5"/>
+        <text class="b" transform="translate(628.26 657.58)">X4</text>
+      </g>
+      <g>
+        <circle class="d" cx="715.5" cy="640.5" r="30.5"/>
+        <text class="b" transform="translate(701.26 647.58)">X3</text>
+      </g>
+    </g>
+    <text class="h" transform="translate(733.93 823.67) rotate(90)">......</text>
+    <text class="e" transform="translate(560.95 1534)">Bootst<tspan class="i" x="177.04" y="0">r</tspan><tspan x="200.8" y="0">apping</tspan></text>
+    <g>
+      <g>
+        <polyline class="c" points="1373.4 251.16 1344.47 189.71 1315.55 251.16"/>
+        <circle class="d" cx="1315.29" cy="251.43" r="16.49"/>
+        <circle class="d" cx="1373.67" cy="251.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1477.74 251.16 1448.81 189.71 1419.88 251.16"/>
+        <circle class="d" cx="1419.63" cy="251.43" r="16.49"/>
+        <circle class="d" cx="1478.01" cy="251.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1449.09 193.31 1396.91 131.87 1344.74 193.31"/>
+        <circle class="j" cx="1344.48" cy="191.96" r="16.49"/>
+        <circle class="k" cx="1448.82" cy="193.59" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1247.44 251.16 1218.51 189.71 1189.58 251.16"/>
+        <circle class="l" cx="1189.33" cy="251.43" r="16.49"/>
+        <circle class="d" cx="1247.71" cy="251.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1143.1 251.16 1114.17 189.71 1085.25 251.16"/>
+        <circle class="d" cx="1084.99" cy="251.43" r="16.49"/>
+        <circle class="d" cx="1143.37" cy="251.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1218.79 193.31 1166.62 131.87 1114.44 193.31"/>
+        <circle class="d" cx="1114.18" cy="191.96" r="16.49"/>
+        <circle class="d" cx="1218.52" cy="193.59" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1396.64 133.85 1281.49 72.4 1166.35 133.85"/>
+        <circle class="k" cx="1166.08" cy="134.12" r="16.49"/>
+        <circle class="d" cx="1396.38" cy="134.12" r="16.49"/>
+      </g>
+      <circle class="d" cx="1281.23" cy="72.49" r="16.49"/>
+    </g>
+    <g>
+      <circle class="c" cx="731.5" cy="1260.5" r="190.5"/>
+      <g>
+        <circle class="d" cx="738.5" cy="1315.5" r="30.5"/>
+        <text class="b" transform="translate(724.26 1322.58)">X5</text>
+      </g>
+      <g>
+        <circle class="d" cx="816.5" cy="1284.5" r="30.5"/>
+        <text class="b" transform="translate(802.26 1291.58)">X8</text>
+      </g>
+      <g>
+        <circle class="d" cx="621.5" cy="1322.5" r="30.5"/>
+        <text class="b" transform="translate(607.26 1329.58)">X3</text>
+      </g>
+      <g>
+        <circle class="a" cx="659.5" cy="1284.5" r="30.5"/>
+        <text class="b" transform="translate(645.26 1291.58)">X7</text>
+      </g>
+      <g>
+        <circle class="a" cx="777.5" cy="1244.5" r="30.5"/>
+        <text class="b" transform="translate(763.26 1251.58)">X2</text>
+      </g>
+      <g>
+        <circle class="a" cx="821.5" cy="1353.5" r="30.5"/>
+        <text class="b" transform="translate(807.26 1360.58)">X4</text>
+      </g>
+      <g>
+        <circle class="a" cx="671.5" cy="1162.5" r="30.5"/>
+        <text class="b" transform="translate(657.26 1169.58)">X6</text>
+      </g>
+      <g>
+        <circle class="d" cx="768.5" cy="1376.5" r="30.5"/>
+        <text class="b" transform="translate(747.23 1383.58)">X10</text>
+      </g>
+      <g>
+        <circle class="d" cx="694.5" cy="1227.5" r="30.5"/>
+        <text class="b" transform="translate(680.26 1234.58)">X8</text>
+      </g>
+      <g>
+        <circle class="a" cx="689.5" cy="1362.5" r="30.5"/>
+        <text class="b" transform="translate(675.26 1369.58)">X2</text>
+      </g>
+      <g>
+        <circle class="d" cx="756.5" cy="1157.5" r="30.5"/>
+        <text class="b" transform="translate(742.26 1164.58)">X1</text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <polyline class="c" points="1373.4 669.16 1344.47 607.71 1315.55 669.16"/>
+        <circle class="d" cx="1315.29" cy="669.43" r="16.49"/>
+        <circle class="j" cx="1373.67" cy="669.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1477.74 669.16 1448.81 607.71 1419.88 669.16"/>
+        <circle class="d" cx="1419.63" cy="669.43" r="16.49"/>
+        <circle class="d" cx="1478.01" cy="669.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1449.09 611.32 1396.91 549.87 1344.74 611.32"/>
+        <circle class="d" cx="1344.48" cy="609.96" r="16.49"/>
+        <circle class="d" cx="1448.82" cy="611.59" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1247.44 669.16 1218.51 607.71 1189.58 669.16"/>
+        <circle class="d" cx="1189.33" cy="669.43" r="16.49"/>
+        <circle class="d" cx="1247.71" cy="669.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1143.1 669.16 1114.17 607.71 1085.25 669.16"/>
+        <circle class="d" cx="1084.99" cy="669.43" r="16.49"/>
+        <circle class="d" cx="1143.37" cy="669.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1218.79 611.32 1166.62 549.87 1114.44 611.32"/>
+        <circle class="k" cx="1114.18" cy="609.96" r="16.49"/>
+        <circle class="l" cx="1218.52" cy="611.59" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1396.64 551.85 1281.49 490.4 1166.35 551.85"/>
+        <circle class="d" cx="1166.08" cy="552.12" r="16.49"/>
+        <circle class="m" cx="1396.38" cy="552.12" r="16.49"/>
+      </g>
+      <circle class="d" cx="1281.23" cy="490.49" r="16.49"/>
+    </g>
+    <g>
+      <g>
+        <polyline class="c" points="1373.4 1347.16 1344.47 1285.71 1315.55 1347.16"/>
+        <circle class="d" cx="1315.29" cy="1347.43" r="16.49"/>
+        <circle class="j" cx="1373.67" cy="1347.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1477.74 1347.16 1448.81 1285.71 1419.88 1347.16"/>
+        <circle class="d" cx="1419.63" cy="1347.43" r="16.49"/>
+        <circle class="d" cx="1478.01" cy="1347.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1449.09 1289.32 1396.91 1227.87 1344.74 1289.32"/>
+        <circle class="d" cx="1344.48" cy="1287.96" r="16.49"/>
+        <circle class="d" cx="1448.82" cy="1289.59" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1247.44 1347.16 1218.51 1285.71 1189.58 1347.16"/>
+        <circle class="d" cx="1189.33" cy="1347.43" r="16.49"/>
+        <circle class="d" cx="1247.71" cy="1347.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1143.1 1347.16 1114.17 1285.71 1085.25 1347.16"/>
+        <circle class="d" cx="1084.99" cy="1347.43" r="16.49"/>
+        <circle class="d" cx="1143.37" cy="1347.43" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1218.79 1289.32 1166.62 1227.87 1114.44 1289.32"/>
+        <circle class="k" cx="1114.18" cy="1287.96" r="16.49"/>
+        <circle class="n" cx="1218.52" cy="1289.59" r="16.49"/>
+      </g>
+      <g>
+        <polyline class="c" points="1396.64 1229.85 1281.49 1168.4 1166.35 1229.85"/>
+        <circle class="m" cx="1166.08" cy="1230.12" r="16.49"/>
+        <circle class="d" cx="1396.38" cy="1230.12" r="16.49"/>
+      </g>
+      <circle class="d" cx="1281.23" cy="1168.49" r="16.49"/>
+    </g>
+    <text class="h" transform="translate(1281.93 823.67) rotate(90)">......</text>
+    <g>
+      <line class="c" x1="406" y1="890" x2="507.86" y2="1093.02"/>
+      <polygon points="494.37 1095.48 516.36 1109.95 517.9 1083.67 494.37 1095.48"/>
+    </g>
+    <g>
+      <line class="c" x1="946.86" y1="605.57" x2="1027.52" y2="605.57"/>
+      <polygon points="1023.66 618.74 1046.46 605.57 1023.66 592.41 1023.66 618.74"/>
+    </g>
+    <g>
+      <line class="c" x1="946.86" y1="195.57" x2="1027.52" y2="195.57"/>
+      <polygon points="1023.66 208.74 1046.46 195.57 1023.66 182.41 1023.66 208.74"/>
+    </g>
+    <g>
+      <line class="c" x1="946.86" y1="1284.57" x2="1027.52" y2="1284.57"/>
+      <polygon points="1023.66 1297.74 1046.46 1284.57 1023.66 1271.41 1023.66 1297.74"/>
+    </g>
+    <g>
+      <text class="e" transform="translate(1800.78 614.64)">Maj. Class</text>
+      <rect class="c" x="1739" y="536" width="429" height="122"/>
+    </g>
+    <path class="c" d="M1517,165a86.25,86.25,0,0,1,86,86V539.5c0,37.5,59,56.5,59,56.5s-59,15-59,59.5V1181a86.25,86.25,0,0,1-86,86"/>
+  </g>
+</svg>
