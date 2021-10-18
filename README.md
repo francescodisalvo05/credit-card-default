@@ -33,10 +33,19 @@ Dimensionality reduction is the transformation of the data from an high dimensio
 
 The most used technique for dimensionality reduction is `Principal ComponentAnalysis` (PCA). It can be interpreted from different point of views, in particular it can bealso seen as avariance maximization problem. In fact, each principal componentwill explain some variance of the initial dataset through a linear combination ofthe features.
 
-In order to determine the proper number of principal components it is necessaryto look for a trade off between the proportion of variance explained and the numberof principal components. A rule of thumb is to choose as many components until you reach a satisfactory variance percentage (80%−90%). We obtain a cumulative explained variance of 85% with 11 Principal Componnets.
+In order to determine the proper number of principal components it is necessaryto look for a trade off between the proportion of variance explained and the numberof principal components. A rule of thumb is to choose as many components until you reach a satisfactory variance percentage (80%−90%). We obtain a cumulative explained variance of 85% with `11 Principal Componnets`.
 
 <p align="center">
   <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/10-PCA.svg" height="350px"/>
+</p>
+
+### Resampling
+Whenever a model learn from an imbalanced dataset, it will be harder to make very accurate predictions, because most of the models tend to prefer the majority class. In fact, in such a circumnstances it is a common practise to rebalance (only) the training set.  Balancing a dataset can be done through under-sampling the majority class, over-sampling the minority class or even with both of these two techniques.
+
+We have tested `Near-Miss V3` (under-sampling), `SMOTE`(over-sampling), `SMOTEEN` (under- and over-sampling).
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/12-resampling-02.svg" height="200px"/>
 </p>
 
 ## References
