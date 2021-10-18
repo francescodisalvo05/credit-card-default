@@ -16,7 +16,7 @@ As one may image, this dataset is `highly imbalanced`, with around 78% of the ob
   <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/readme-00.png"> 
 </p>
 
-> For further datails on the EDA step, please consider looking at [this](https://github.com/francescodisalvo05/credit-card-default/blob/main/notebooks/EDA.ipynb) notebook or directly on the proposed [report](https://github.com/francescodisalvo05/credit-card-default/blob/main/DiSalvoFrancesco_S282418.pdf).
+> For further datails on the EDA step, please consider looking at [this](https://github.com/francescodisalvo05/credit-card-default/blob/main/notebooks/EDA.ipynb) notebook or directly at the proposed [report](https://github.com/francescodisalvo05/credit-card-default/blob/main/DiSalvoFrancesco_S282418.pdf).
 
 ## Preprocessing
 
@@ -48,16 +48,37 @@ We have tested `Near-Miss V3` (under-sampling), `SMOTE`(over-sampling), `SMOTEEN
   <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/12-resampling-02.svg" height="200px"/>
 </p>
 
-> For further datails on the Preprocessing step, please consider looking at [this](https://github.com/francescodisalvo05/credit-card-default/blob/main/notebooks/preprocessing.ipynb) notebook or directly on the proposed [report](https://github.com/francescodisalvo05/credit-card-default/blob/main/DiSalvoFrancesco_S282418.pdf).
+> For further datails on the Preprocessing step, please consider looking at [this](https://github.com/francescodisalvo05/credit-card-default/blob/main/notebooks/preprocessing.ipynb) notebook or directly at the proposed [report](https://github.com/francescodisalvo05/credit-card-default/blob/main/DiSalvoFrancesco_S282418.pdf).
 
 ## Model evaluation
 Since we are dealing with an heavy imbalanced dataset, maximizing the `accuracy` is not the best option because we may have an high number of correct classification, mostly from the majority class (that we know will be preferred by the algorithm). In fact, we are strongly interested in the number of False Negatives (i.e. default classified as no default) without forgetting the number of False Positives (i.e. no default classified as default). Hence, we decided to maximize the `F1` score on our tests with special attention to the `Recall`.
 
+## Model selection
+In this section we explored different approaches and different models for solving our problem. In particular we have studied `Random Forest`, `K Nearest Neighbors`, `Support Vector Machines` and and `Logistic Regression`, following the Empirical Risk Minimization (ERM) paradigm.
 
+> If you want to deep dive into the theory behind these algorithms, have a look at the proposed [report](https://github.com/francescodisalvo05/credit-card-default/blob/main/DiSalvoFrancesco_S282418.pdf).
 
+## Results
 
+|`Random Forest`| `Support Vector Machine`| 
+| ------------- | ----------------------- |
+| <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/res-rf.png" /> | <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/res-svc.png" /> | 
 
+|`K Nearest Neighbors`| `Logistic Regression`| 
+| ------------- | ----------------------- |
+| <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/rs-knn.png" /> | <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/rr-lr.png" /> | 
 
+## Complete pipeline
+Here's a graphic representation of the full-pipeline, considering all the preprocessing activities described above.
+
+<p align="center">
+  <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/pipeline.jpg" height="200px"/>
+</p>
+
+## Conclusions
+Different machine learning alorithms have been tested, as well as different pre-processing techniques. Tu sum up, our goal was to maximize the F1-score, the harmonic mean between precision and recall with a particular attention to the Recall. The `best F1-score` was obtained by `Random Forest (0.51)` whereas the `highest recall` - that may be preferred in such a circumnstances - was achieved by `Support Vector Machine (0.67)`.
+
+> If you want to see some more detailed observations of the results, have a look at the proposed [report](https://github.com/francescodisalvo05/credit-card-default/blob/main/DiSalvoFrancesco_S282418.pdf).
 
 ## References
 
