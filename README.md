@@ -48,6 +48,17 @@ We have tested `Near-Miss V3` (under-sampling), `SMOTE`(over-sampling), `SMOTEEN
   <img src="https://github.com/francescodisalvo05/credit-card-default/blob/main/images/12-resampling-02.svg" height="200px"/>
 </p>
 
+> For further datails on the Preprocessing step, please consider looking at [this](https://github.com/francescodisalvo05/credit-card-default/blob/main/notebooks/preprocessing.ipynb) notebook or directly on the proposed [report](https://github.com/francescodisalvo05/credit-card-default/blob/main/DiSalvoFrancesco_S282418.pdf).
+
+## Model evaluation
+Since we are dealing with an heavy imbalanced dataset, maximizing the `accuracy` is not the best option because we may have an high number of correct classification, mostly from the majority class (that we know will be preferred by the algorithm). In fact, we are strongly interested in the number of False Negatives (i.e. default classified as no default) without forgetting the number of False Positives (i.e. no default classified as default). Hence, we decided to maximize the `F1` score on our tests with special attention to the `Recall`.
+
+
+
+
+
+
+
 ## References
 
 | `Report`  | `EDA` | `Preprocessing`  | `Modeling` |
